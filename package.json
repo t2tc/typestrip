@@ -1,0 +1,32 @@
+{
+  "name": "typestrip",
+  "version": "1.0.0",
+  "description": "A simple TypeScript to JavaScript converter",
+  "main": "dist/typestrip.js",
+  "module": "dist/typestrip.mjs",
+  "types": "dist/typestrip.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js",
+    "serve": "node scripts/serve.js"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "transform",
+    "strip",
+    "babel"
+  ],
+  "author": "t2tc",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/preset-typescript": "^7.23.3",
+    "@babel/standalone": "^7.26.9"
+  },
+  "devDependencies": {
+    "@types/babel__standalone": "^7.1.9",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.3.3"
+  }
+}
