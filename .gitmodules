@@ -1,0 +1,3 @@
+[submodule "third_parties/babel"]
+	path = third_parties/babel
+	url = https://github.com/babel/babel.git

@@ -1,2 +1,2 @@
 # typestrip
-A `strip` function to strip type definations from TypeScript into JavaScript.
+REMOVED. use (`bloomberg/ts-blank-space`)[https://github.com/bloomberg/ts-blank-space] instead.
